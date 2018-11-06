@@ -1,0 +1,192 @@
+
+.section1{
+    width: 100%;
+    background-image: none;
+    height: 0;
+}
+.fixed1{
+    position: fixed;
+    top: 0;
+    /*left: 0;*/
+}
+.banner{
+    position: relative;
+}
+.banner .ull{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1000%;
+}
+.ull li{
+    height: 300px;
+    float: left;
+}
+.ull li img{
+    height: 300px;
+    width: 1360px;
+}
+
+.banner .inner{
+    position: relative;
+    height: 300px;
+}
+.inner .oll{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+}
+.inner .oll li{
+    float: left;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    background-color: darkgrey;
+    margin-right: 10px;
+}
+.inner .oll li.active{
+    background-color: palevioletred;
+}
+/*==================banner图结束====================*/
+.backtop_wrap{
+    position: fixed;
+    top: 340px;
+    right: 0;
+    z-index: 999;
+    display: none;
+}
+.backtop_wrap a{
+    display: block;
+    padding: 10px;
+    background-color: #fff;
+}
+.backtop_wrap a:hover{
+    background-color: palevioletred;
+    opacity: 0.5;
+}
+
+.backtop_wrap a.aa{
+    border-bottom: 1px solid #666;
+}
+i{
+    background: url("../img/index7/icon-spr.png") no-repeat;
+    vertical-align: middle;
+    display: block;
+}
+.a1{
+    width: 37px;
+    height: 40px;
+    background-position: -1px 0;
+}
+.a2{
+    width: 33px;
+    height: 44px;
+    background-position: -3px -82px;
+}
+
+/*以上是回到顶部*/
+.xM{
+    margin-top: 100px;
+    position: relative;
+}
+.xM-in{
+    width: 1200px;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.xM span{
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    left: 0;
+    cursor: pointer;
+}
+#goUp{
+    top: 0;
+}
+#goDown{
+    bottom: 0;
+}
+.xM img{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/*以上是小米案例*/
+
+.box {
+    width: 400px;
+    margin: 50px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    position: absolute;
+    right: 120px;
+    top: -20px;
+}
+textarea {
+    background-color: transparent;
+    width: 370px;
+    height: 170px;
+    resize: none;
+    font-size: 20px;
+}
+
+.box li {
+    height: 32px;
+    font-size: 24px;
+    border-bottom: 1px dashed #ccc;
+}
+.box li a {
+    float: right;
+}
+
+/*头部开始*/
+footer{
+    margin-top: 30px;
+    width: 100%;
+    height: 60px;
+    background-color: #000;
+    padding: 30px 0;
+}
+footer a{
+    color: #494949;
+}
+footer p{
+    color: grey;
+    text-align: center;
+    line-height: 26px;
+}
+.pp{
+    color: #cb678f;
+    font-size: 20px;
+    padding: 50px 150px 10px;
+    cursor: pointer;
+}
+#ul{
+    padding: 0 150px;
+}
+#ul li{
+    padding: 10px 0;
+    line-height: 30px;
+    color: #666;
+    width: 830px;
+    overflow: hidden;
+    border-bottom: 1px solid transparent;
+    cursor: pointer;
+}
+#ul li:hover{
+    border-bottom: 1px solid #cb678f;
+    color: #cb678f;
+}
+.xM p.span{
+    color: #cb678f;
+    font-size: 20px;
+    position: absolute;
+    left: 55px;
+    top: -34px;
+}
+
+
+

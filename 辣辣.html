@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #yzm{
+            width: 300px;
+            height: 50px;
+            border-radius: 50px;
+            background-color: palevioletred;
+            position: relative;
+        }
+        .tou{
+            width: 50px;
+            height: 50px;
+            border-radius: 50px;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .tou img{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<div id="yzm">
+    <div class="tou" id="tou">
+        <img src="img/index3/face2_2_2.png" alt="">
+    </div>
+</div>
+
+<script>
+    var yzm=document.getElementById('yzm'),
+        tou=document.getElementById('tou'),
+        wei=document.getElementById('wei');
+
+    tou.onmousedown=function(ev){
+        var oEvent=ev||window.event;
+
+        var x=oEvent.clientX-tou.offsetLeft;
+        var y=oEvent.clientY-tou.offsetTop;
+
+        document.onmousemove=function(ev){
+            var event=ev||window.event;
+
+            var left=event.clientX-x;
+            var top=event.clientY-y;
+
+            if (top<0){
+                top=0;
+            }
+            if (top>0){
+                top=0
+            }
+
+            if (left<0){
+                left=0
+            }
+            if (left>yzm.offsetWidth-50){
+                left=yzm.offsetWidth-50;
+            }
+
+            tou.style.left=left+"px";
+            tou.style.top=top+"px";
+        }
+        document.onmouseup=function(){
+            document.onmousemove=null;
+        }
+
+
+    }
+
+</script>
+
+</body>
+</html>

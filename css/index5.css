@@ -1,0 +1,423 @@
+.inner{
+    width: 1200px;
+    margin: 0 auto;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+header{
+    height: 102px;
+    background-color: #fff;
+    line-height: 102px;
+}
+header .inner{
+    position: relative;
+}
+header .h-left{
+    width: 260px;
+    position: relative;
+    line-height: 102px;
+}
+header .h-left img{
+    width: 180px;
+    height: 62px;
+}
+header .h-left a.h-txt{
+    color: #30708c;
+    font-size: 26px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+/*=====左边====*/
+i{
+    background: url("../img/index5/css_sp.png") no-repeat;
+    display: inline-block;
+}
+.i1{
+    width: 131px;
+    height: 36px;
+    background-position: -3px -34px;
+    position: absolute;
+    top: 40px;
+    right: 155px;
+}
+header .h-right{
+    width: 270px;
+    /*height: 102px;*/
+    position: absolute;
+    right: 0;
+}
+header .h-right a.h-jr{
+    display: inline-block;
+}
+header .h-right a.h-jr:hover .i1{
+    background-position: -3px -79px;
+}
+header .h-right .h-dl{
+    display: inline-block;
+    width: 126px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 35px;
+    border: 1px solid #b3b3b3;
+    color: #6b6b6b;
+    position: absolute;
+    top: 40px;
+    right: 10px;
+}
+header .h-right .h-dl:hover{
+    border: 1px solid #f879a2;
+    color: #f879a2;
+}
+/*===================头部结束=============*/
+.banner{
+    background: url("../img/index5/kv.jpg") no-repeat top center;
+    height: 596px;
+}
+.banner .inner{
+    height: 100%;
+    position: relative;
+}
+.i2{
+    width: 308px;
+    height: 85px;
+    background-position: -363px -180px;
+    position: absolute;
+    left: 445px;
+    bottom: 140px;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.i2:hover{
+    opacity: 1;
+}
+.banner .b-zzc{
+    width: 100%;
+    height: 4097px;
+    background: rgb(0, 0, 0);
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.banner .b-dl{
+    position: fixed;
+    top: 150px;
+    left: 386px;
+    cursor: pointer;
+    display: none;
+}
+.banner .b-x{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #7dbbc6;
+    border-radius: 56px;
+    position: fixed;
+    top: 125px;
+    right: 405px;
+}
+.banner .b-dl .i3{
+    width: 15px;
+    height: 15px;
+    background-position: -162px -99px;
+}
+.banner .b-x .i3:hover{
+    transform: rotate(360deg);
+    transform-origin: center;
+}
+/*以下是微信 qq 登陆*/
+.banner .b-dl .img{
+    position: relative;
+}
+.banner .b-dl .img .qq,.banner .b-dl .img .wx{
+    width: 140px;
+    height: 140px;
+    background-color: transparent;
+    position: absolute;
+    /*overflow: hidden;*/
+}
+.banner .b-dl .img .qq{
+    top: 130px;
+    left: 115px;
+}
+.banner .b-dl .img .wx{
+    top: 130px;
+    right: 115px;
+}
+.banner .b-dl .qq1{
+    width: 618px;
+    height: 500px;
+    background-color: #fff;
+    position: relative;
+    top: -200px;
+    left: -100px;
+    display: none;
+    z-index: 111;
+    overflow: hidden;
+}
+.banner .b-dl .qqx{
+    width: 40px;
+    height: 20px;
+    position: absolute;
+    right: 0;
+    top:0;
+    border-left: 1px solid gainsboro;
+    line-height: 20px;
+}
+.banner .b-dl .qqx:hover{
+    background-color: red;
+    opacity: 0.7;
+}
+.banner .b-dl .qqx div{
+    width: 2px;
+    height: 20px;
+    background-color: #a4a4a4;
+    position: absolute;
+    right: 20px;
+}
+.banner .b-dl .qqx div.x1{
+    transform: rotate(45deg);
+}
+.banner .b-dl .qqx div.x2{
+    transform: rotate(-45deg);
+}
+.banner .b-dl .qq h2{
+    font-weight: normal;
+    text-align: center;
+    margin: 30px 0 20px 0;
+}
+.banner .b-dl .qq p{
+    color: grey;
+    text-align: center;
+    line-height: 28px;
+}
+.banner .b-dl .qq p>.a1{
+    color: #0a56bb;
+    text-decoration: underline;
+}
+.banner .b-dl .qq .qimg{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 180px;
+    left: 208px;
+}
+/*以上是qq*/
+.banner .b-dl .wxl{
+    width: 510px;
+    height: 400px;
+    background-color: #fff;
+    position: relative;
+    top: -169px;
+    left: -272px;
+    display: none;
+    z-index: 111;
+    overflow: hidden;
+}
+.banner .b-dl .wxl h2{
+    font-weight: normal;
+    margin: 30px 0 20px 0;
+    text-align: center;
+}
+.banner .b-dl .wxl img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 75px;
+    left: 150px
+}
+.banner .b-dl .wxl p{
+    color: grey;
+    text-align: center;
+    position: absolute;
+    bottom: 49px;
+    left: 150px;
+}
+/*=======banner结束==========*/
+.section1_5 .s1-head{
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+}
+.section1_5 .s1-head a{
+    color: grey;
+    display: inline-block;
+    text-align: center;
+    width: 100px;
+    line-height: 30px;
+    border-bottom: 2px solid gold;
+    margin-right: 10px;
+    transition: .6s;
+}
+.section1_5 .s1-head a.active {
+    background-color: gold;
+    opacity: .6;
+}
+/*====以上头部=======*/
+.section1_5 img{
+    height: 400px;
+}
+.section1_5 li{
+    float: left;
+    width: 225px;
+    height: 498px;
+    background-color: #fff;
+    margin-right: 10px;
+    border: 2px solid transparent;
+    position: relative;
+}
+/*框框效果*/
+.section1_5 li::before,.section1_5 li::after{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    content: "";
+    opacity: 0;
+    transition: .5s;
+}
+.section1_5 li::before{
+    border-top: 2px solid gold;
+    border-bottom: 2px solid gold;
+    transform: scale(0,1);
+}
+.section1_5 li:hover::before{
+    opacity: 1;
+    transform: scale(1);
+}
+.section1_5 li::after{
+    border-left: 2px solid gold;
+    border-right: 2px solid gold;
+    transform: scale(1,0);
+}
+.section1_5 li:hover::after{
+    opacity: 1;
+    transform: scale(1);
+}
+.section1_5 li>a{
+    color: grey;
+}
+.section1_5 li:hover a{
+    color: palevioletred;
+}
+.section1_5 .s1-ul p{
+    width: 225px;
+    height: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.section1_5 .s1-ul span{
+    display: block;
+    line-height: 26px;
+}
+/*============section1_5结束===========*/
+.section2_5{
+    margin-top: 50px;
+    height: 400px;
+    width: 100%;
+    background-color: #fff;
+}
+.section2_5 .inner{
+    position: relative;
+}
+.i4{
+    width: 547px;
+    height: 74px;
+    background-position: -448px -1px;
+    position: absolute;
+    top: 10px;
+    left: 330px;
+}
+.section2_5 ul{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+.section2_5 ul img{
+    width: 100px;
+    margin-bottom: 6px;
+}
+.section2_5 ul a{
+    display: block;
+}
+
+.section2_5 .s2-img{
+    width: 278px;
+    position: absolute;
+    top: 100px;
+    left: 225px;
+}
+.section2_5 .s2-img .p1{
+    font-size: 30px;
+    color: paleturquoise;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 30px;
+}
+.section2_5 h3{
+    width: 200px;
+    color: paleturquoise;
+    position: absolute;
+    top: 360px;
+    right: 140px;
+    font-weight: normal;
+    font-size: 30px;
+}
+.section2_5 ol{
+    width: 500px;
+    position: absolute;
+    top: 93px;
+    right: 0;
+}
+.section2_5 ol li{
+    cursor: pointer;
+    width: 132px;
+    height: 132px;
+    overflow: hidden;
+    float: left;
+    margin-right: 10px;
+}
+.section2_5 ol li:hover img{
+    transform: scale(1.2);
+}
+/*============section2_5结束==============*/
+footer{
+    margin-top: 30px;
+    width: 100%;
+    height: 100px;
+    background-color: gainsboro;
+    padding: 30px 0;
+}
+
+footer a{
+    color: grey;
+}
+footer p{
+    color: grey;
+    text-align: center;
+    line-height: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,28 @@
+.section2 .cont h2.h2{
+    font-size: 26px;
+    font-weight: 700;
+    color: #000;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 40px;
+}
+ .section2 div.cont{
+    width: 800px;
+    left: 44px;
+}
+.section2 .cont p{
+    font-size: 20px;
+    line-height: 40px;
+    width: 800px;
+}
+.section2 .cont p.p1{
+    text-align: center;
+    color: #666;
+    font-size: 16px;
+    line-height: 60px;
+    margin: 0 40px;
+}
+.section2 .jz{
+    position: absolute;
+    left: 240px;
+}

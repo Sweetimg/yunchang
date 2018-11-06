@@ -1,0 +1,1052 @@
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+img{
+    vertical-align: middle;
+}
+em{
+    display: inline-block;
+    background: url("../img1/ost-bg.png") no-repeat;
+    vertical-align: middle;
+    font-style:normal;
+}
+strong{
+    display: inline-block;
+    background: url("../img1/ost_rank_sp.png") no-repeat;
+    vertical-align: middle;
+    font-style:normal;
+}
+.txyx-nav{
+    width: 100%;
+    height:40px;
+    border-top: 1px solid #c9c9c9;
+    border-bottom: 1px solid #c9c9c9;
+    background-color:white ;
+    background: url("../img1/ost-bg.png");
+    font-size: 12px;
+}
+.txyx-nav .inner{
+    position: relative;
+}
+.txyx-logo{
+    width: 220px;
+    height: 40px;
+    background-position: 0 -40px;
+    position: relative;
+    /*z-index:10;*/
+
+}
+.txyx-nav .inner ul li:nth-of-type(2) img:last-of-type{
+    display: none;
+    position: absolute;
+    top:0;
+    right: 0;
+    z-index: 5;
+
+}
+.txyx-nav .inner ul li:nth-of-type(2):hover img:last-of-type{
+    display: block;
+}
+
+.phb{
+    width: 11px;
+    height: 11px;
+    background-position: -150px -134px;
+}
+.txyx-nav .inner{
+    width: 990px;
+    margin: auto;
+}
+.txyx-nav .inner>ul>li{
+    float: left;
+
+
+}
+.txyx-nav .inner>ul>li>a{
+    color: #464646;
+    font-size: 12px;
+}
+.txyx-nav .inner>ul>li:last-of-type{
+    float: right;
+    position: relative;
+
+}
+.txyx-nav .inner>ul>li:last-of-type h3{
+    margin-top: 8px;
+}
+.txyx-nav .inner>ul>li>h3{
+    height: 42px;
+    float: left;
+    margin-left: 27px;
+}
+.txyx-nav .inner>ul>li>h3:hover a{
+    color: #ff4e00;
+}
+.txyx-nav .inner>ul>li>.txphb:hover em{
+    background-position: -170px -134px;
+}
+.txyx-nav .inner>ul>li .xiala{
+    width: 698px;
+    height: 456px;
+    border: 1px solid #cdcdcd;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    display: none;
+    font-size: 12px;
+    background: white;
+}
+.txyx-nav .inner>ul>li .txphb:hover .xiala{
+    display: block;
+    z-index: 3;
+}
+.txyx-nav .inner>ul>li>.txphb .xiala>ul{
+    width: 232px;
+    height: 420px;
+    border-right: 1px solid #e2e2e2;
+    box-sizing: border-box;
+    padding: 0 10px;
+    margin-top: 20px;
+    color: #72797f;
+    float: left;
+}
+.txyx-nav .inner>ul>li>.txphb .xiala>ul .li1{
+    border-bottom: 1px solid #e2e2e2;
+    padding-bottom: 3px;
+}
+.txyx-nav .inner>ul>li>.txphb .xiala>ul .li1 h4{
+    float: left;
+    color: #0b0b0b;
+}
+.txyx-nav .inner>ul>li>.txphb .xiala ul li a{
+    color: #72797f;
+
+}
+.txyx-nav .inner>ul>li>.txphb .xiala>ul .li1 a{
+    float: right;
+}
+.txyx-nav .inner>ul>li>.txphb .xiala>ul li a:hover{
+    color: #ff4e00;
+    text-decoration: underline;
+
+}
+.txyx-nav .inner>ul>li>.txphb .xiala>ul .li3 .zz li:hover a{
+    color: #ff4e00;
+    text-decoration: underline;
+
+}
+
+.txyx-nav .inner>ul>li>.txphb .xiala>ul .li2{
+    line-height: 38px;
+}
+.txyx-nav .inner>ul>li>.txphb .xiala>ul .li3{
+    position: relative;
+    box-sizing: border-box;
+    margin-bottom: 13px;
+
+}
+.txyx-nav .inner>ul>li>.txphb .xiala>ul .li3 ul {
+    float: left;
+}
+.txyx-nav .inner>ul>li>.txphb .xiala>ul .li3 .zz ul li{
+    float: left;
+    line-height:28px;
+    padding: 0 20px;
+}
+.txyx-nav .inner>ul>li>.txphb .xiala>ul .li3 div{
+    width: 14px;
+    height: 14px;
+    box-sizing: border-box;
+    line-height: 14px;
+    text-align: center;
+    float: left;
+}
+.txyx-nav .inner>ul>li>.txphb .xiala>ul .li3.now{
+    border: 1px solid #999999;
+}
+.txyx-nav .inner>ul>li>.txphb .xiala>ul .li3 .kk.now{
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.txyx-nav .inner>ul>li>.txphb .xiala>ul .li3 .hk{
+    color: white;
+    background: #ff4e00;
+}
+.txyx-nav .inner>ul>li>.txphb .xiala>ul .li3 .wsk{
+    color: #999999;
+    border: 1px solid #999999;
+}
+.txyx-nav .inner>ul>li>.txphb .xiala>ul .li3 img{
+    display: none;
+}
+.txyx-nav .inner>ul>li>.txphb .xiala>ul .li3 span.now{
+    display: none;
+}
+.txyx-nav .inner>ul>li>.txphb .xiala>ul .li3 img.now{
+    display: block;
+}
+.txyx-nav .inner>ul>li>.txphb .xiala>ul .li3 .zz{
+    width: 100%;
+    height: 28px;
+    background:rgba(0,0,0,.7);
+    display: none;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.txyx-nav .inner>ul>li>.txphb .xiala>ul .li3 .zz.now{
+    display: block;
+}
+.txyx-nav .inner>ul>li>.txphb .xiala>ul:last-of-type{
+    border-right: none;
+}
+.fz{
+    width: 13px;
+    height: 13px;
+    background-position: 0 0;
+    margin-top: -3px;
+}
+.xz{
+    width: 13px;
+    height: 13px;
+    background-position: -14px 0;
+    margin-top: -3px;
+}
+.txyx-nav .inner>ul>li>.txphb .xiala>ul .li3 .zz li:hover .fz{
+    background-position: 0px -17px;
+}
+.txyx-nav .inner>ul>li>.txphb .xiala>ul .li3 .zz li:hover .xz{
+    background-position: -14px -17px;
+}
+.txyx-nav .inner>ul>li>.txphb .xiala>.you .li3 .zz ul li{
+    float: left;
+    line-height:28px;
+    padding: 0 27px;
+    border-right: 1px solid #999999;
+}
+.txyx-nav .inner>ul>li>.txphb .xiala>.you .li3 .zz ul li:last-of-type{
+    border-right:none;
+}
+.dfz{
+    width: 15px;
+    height: 16px;
+    background-position: -28px 0;
+    margin-top: -3px;
+}
+.pg{
+    width: 15px;
+    height: 16px;
+    background-position: -44px 0;
+    margin-top: -3px;
+}
+.az{
+    width: 15px;
+    height: 16px;
+    background-position: -60px 0;
+    margin-top: -3px;
+}
+.txyx-nav .inner>ul>li>.txphb .xiala>ul .li3 .zz li:hover .dfz{
+    background-position: -28px -17px;
+}
+.txyx-nav .inner>ul>li>.txphb .xiala>ul .li3 .zz li:hover .pg{
+    background-position: -44px -17px;
+}
+.txyx-nav .inner>ul>li>.txphb .xiala>ul .li3 .zz li:hover .az{
+    background-position: -60px -17px;
+}
+/*==================header结束==============*/
+.section1{
+    background: url("../img/index2/section1_wrap.jpg")no-repeat center;
+    height: 958px;
+    /*background-size: 1349px auto;*/
+    /*背景图片不合适时，使用*/
+    position: relative;
+    /*overflow: hidden;*/
+}
+.section1 .fixed{
+    width: 100%;
+    height: 108px;
+    background: rgba(44,55,141,.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.inner{
+    width: 1200px;
+    margin: 0 auto;
+}
+.section1 .fixed ul{
+    height: 48px;
+    padding: 40px 0 0;
+    color: #d8b0bf;
+}
+.section1 .fixed ul li{
+    float: left;
+    width: 86px;
+    text-align: center;
+    margin-left: 40px;
+    transition: 0.5s;
+    cursor: pointer;
+    overflow: hidden;
+    font-size: 18px;
+}
+.section1 .fixed ul li>span{
+    font-size: 10px;
+    z-index: 11;
+}
+.section1 .fixed ul li>a{
+    color: #fff;
+    width: 85px;
+}
+.section1 .fixed ul li:hover{
+    transform: translateY(-10px);
+}
+/*===========头部导航结束===========*/
+i{
+    background: url("../img/index2/p1.png") no-repeat;
+    display: inline-block;
+}
+.section1-inner{
+    background: url("../img/index2/section1_center_0423.jpg") no-repeat center;
+    height: 958px;
+    position: relative;
+}
+.section1 .i1{
+    width: 63px;
+    height: 29px;
+    background-position: -509px -532px;
+    position: absolute;
+    right: 0;
+    top: 130px;
+    cursor: pointer;
+}
+.section1 #sp{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: 414px;
+    left: 764px;
+    /*opacity:0;*/
+    cursor: pointer;
+}
+.section1 #sp.active{
+   /*opacity: 1;*/
+}
+#sp .sp1{
+    width: 800px;
+    height: 450px;
+    float: left;
+    text-align: center;
+    clear: both;
+    background: #bc4072;
+    position: fixed;
+    left: 260px;
+    top: 100px;
+    display: none;
+    z-index: 999;
+}
+#sp .sp1 #mp4{
+    width: 100%;
+    height: 100%;
+}
+#sp .sps{
+    width: 30px;
+    height: 30px;
+    background: #bc4072;
+    position: fixed;
+    right: 257px;
+    top: 100px;
+    display: none;
+    z-index: 999;
+}
+#sp .sps .line{
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    position: absolute;
+    top: 14px;
+    right: 0;
+}
+#sp .sps .line1{
+    transform: rotate(-45deg);
+}
+#sp .sps .line2{
+    transform: rotate(45deg);
+}
+/*===============以上是音乐播放=============*/
+.section1 .rwm{
+    width: 170px;
+    height: 300px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    /*background-color: aquamarine;*/
+    z-index: 22;
+    padding: 20px 30px 0;
+
+}
+.section1 .rwm .img{
+    width: 226px;
+    overflow: hidden;
+}
+.section1 .rwm .img>img{
+    width: 160px;
+    display: block;
+}
+.section1 .rwm .i{
+    width: 158px;
+    height: 40px;
+    margin-top: 5px;
+}
+.section1 .rwm .i4{
+    background-position: -403px -458px;
+}
+.section1 .rwm .i2{
+    background-position: -350px -512px;
+}
+.section1 .rwm .i3{
+    background-position: -350px -560px;
+}
+.section1 .section1-center{
+    width: 474px;
+    height: 320px;
+    /*background-color: #0a56bb;*/
+    position: relative;
+    left: 226px;
+    top: 580px;
+}
+.news-tabs {
+    height: 20px;
+    padding: 20px 36px;
+}
+ .news-tabs>li{
+    float: left;
+    cursor: pointer;
+    width: 20px;
+    height: 40px;
+    text-align: center;
+    line-height: 20px;
+    color: #444;
+    padding: 10px 20px;
+    margin-right: 18px;
+    border-radius: 100%;
+    border: 1px solid transparent;
+    font-size: 20px;
+}
+ .news-tabs>li.active{
+    border: 1px solid #5b4594;
+    color: #5b4594;
+}
+.section1 .section1-center .news-box{
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 101px;
+    left: 0;
+    /*background: red;*/
+    display: none;
+    padding: 20px 50px;
+}
+.section1 .section1-center .news-box.active{
+    display: block;
+}
+.section1 .section1-center .box{
+    padding: 20px 50px;
+}
+.section1 .section1-center .news-box li{
+    height: 38px;
+    line-height: 38px;
+    width: 374px;
+    overflow: hidden;
+}
+.section1 .news-box a{
+    font-size: 14px;
+    color: #616161;
+    overflow: hidden;
+    display: block;
+}
+.section1 .news-box b{
+    font-weight: 700;
+    vertical-align: top;
+    width: 50px;
+}
+
+.section1 .news-box .text{
+    width: 270px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+    white-space: nowrap;
+}
+.section1 .news-box .text:hover{
+    text-decoration: underline;
+    color: hotpink;
+}
+.section1 .news-box .date{
+    color: #b1b1b1;
+    vertical-align: top;
+    text-align: right;
+    display: inline-block;
+    margin-top: 1px;
+}
+/*===========以上是内容选项卡==========*/
+.section1 .section1-pic{
+    width: 499px;
+    height: 320px;
+    background-color: red;
+    position: relative;
+    left: -1px;
+    top: 578px;
+    z-index: 204;
+    cursor: pointer;
+}
+.section1 .section1-pic img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.section1 .section1-pic img.active{
+    display: block;
+}
+.section1 .section1-pic ul{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    z-index: 2;
+}
+.section1 .section1-pic li{
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+    float: left;
+    margin-right: 10px;
+    background-color: #fff;
+}
+.section1 .section1-pic li.active{
+    background-color: palevioletred;
+}
+/*=====================section一结束======================*/
+.section2{
+    /*background: url("../img/index2/section2_wrap.jpg") no-repeat center;*/
+    height: 600px;
+}
+.section2-center{
+    position: relative;
+}
+.section2 ul{
+    position: absolute;
+    top: 140px;
+    left: 87px;
+}
+.section2 ul li{
+    float: left;
+    cursor: pointer;
+}
+
+.section2 i.i5{
+    width: 66px;
+    height: 472px;
+    background-position: 0 0;
+    position: absolute;
+    top: 106px;
+    left: 0;
+}
+.section2 i.i7{
+    width: 24px;
+    height: 450px;
+    background-position: -590px 0;
+    vertical-align: top;
+    margin-left: -6px;
+    display: none;
+}
+.section2 .img.active+i.i7{
+    display: inline-block;
+}
+.section2 i.i1{
+    width: 90px;
+    height: 460px;
+    vertical-align: top;
+    /*有用*/
+}
+.section2 i.i2{
+    background-position: -136px 0;
+}
+.section2 .img{
+    margin-left: -5px;
+    width: 0;
+    height: 0;
+}
+.section2 .img.active{
+    width: 630px;
+    height: 431px;
+    display: inline-block;
+}
+.section2 .img img{
+    display: none;
+}
+.section2 .img.active img{
+    display: inline-block;
+}
+.section2 i.i3{
+    background-position: -225px 0;
+}
+.section2 i.i4{
+    background-position: -317px 0;
+}
+.section2 i.i10{
+    background-position: -407px 0;
+}
+.section2 i.i0{
+    background-position: -499px 0;
+}
+/*=====================section二结束======================*/
+.section3{
+    background: url("../img/index2/section3_wrap.jpg") no-repeat center;
+    height: 832px;
+}
+.section3-center{
+    position: relative;
+}
+.section3 ul{
+    position: absolute;
+    top: 171px;
+    left: 70px;
+    width: 600px;
+    height: 70px;
+    z-index: 111;
+    cursor: pointer;
+}
+.section3 ul li{
+    float: left;
+    color: rgb(240, 188, 210);
+    width: 115px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    position: relative;
+    border: 1px solid transparent;
+}
+.section3 ul li.active{
+    border-color: #bc407a;
+    color: #bc407a;
+}
+.section3 ul li b{
+    position: absolute;
+    left: 45px;
+    top: 42px;
+    width: 16px;
+    height: 16px;
+    border-radius: 22px;
+    border: 2px solid #bc407a;
+}
+.section3 ul li.active b{
+    /*注意*/
+    width: 20px;
+    height: 20px;
+}
+.section3 ul li em{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 14px;
+    height: 14px;
+    border-radius: 14px;
+    /*background-color: #fff;*/
+    border:  2px solid #bc407a;
+    display: none;
+}
+.section3 ul li.active em{
+    background: #bc407a;
+    display: inline-block;
+    top: 1px;
+    left: 1px;
+}
+.section3 .section3-content img{
+    transition: 1s;
+    display: none;
+}
+.section3 .section3-content img.active{
+    display: block;
+}
+/*=====================section三结束======================*/
+.section4{
+    background: url("../img/index2/section4_wrap.jpg") no-repeat center;
+    height: 408px;
+}
+.section4-center{
+    position: relative;
+}
+.i6{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 66px;
+    height: 325px;
+    background-position: -683px 0;
+}
+
+.title{
+    position: absolute;
+    left: 140px;
+    top: 0px;
+}
+.title li{
+    color: #d391b1;
+}
+.title li.active{
+    color: #e03178;
+    border-color: #e03178;
+}
+.news-conts{
+    width: 80%;
+    height: 220px;
+    /*background-color: red;*/
+    position: relative;
+    top: 100px;
+    left: 150px;
+    font-size: 14px;
+}
+.news-conts .news-cont{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.news-conts .news-cont.active{
+    display: block;
+}
+.news-conts .news-cont ol{
+    width: 100%;
+}
+.news-conts .news-cont ol li{
+    float: left;
+    margin: 10px 60px 0 0;
+    /*height: 25px;*/
+}
+.news-cont ol .pink{
+    display: inline-block;
+    text-align: center;
+    width: 60px;
+    height: 25px;
+    border-radius: 15px;
+    background-color: #cb678f;
+    font-size: 12px;
+    color: #fff;
+    margin-right: 10px;
+    line-height: 25px;
+
+}
+.news-cont ol .text1{
+    display: inline-block;
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 12px;
+}
+.news-cont ol .date{
+    color: #b1b1b1;
+    padding: 0 30px;
+    line-height: 40px;
+}
+
+/*=====================section四结束======================*/
+.section5{
+    background: #f1f5fa;
+    height: 439px;
+    padding-bottom: 90px
+}
+.section5-center{
+    position: relative;
+}
+.i8{
+    position: absolute;
+    top: 14px;
+    left: 0;
+    width: 66px;
+    height: 440px;
+    background-position: -614px 0;
+}
+.section5 .line{
+    height: 1px;
+    width: 960px;
+    background: #c5ccda;
+    position: absolute;
+    top: 10px;
+    left: 100px;
+}
+.section5 ul{
+    position: absolute;
+    top: 88px;
+    left: 100px;
+}
+.section5 ul li{
+    float: left;
+    margin: 0 10px 8px 0;
+    position: relative;
+    border: 1px solid #fff;
+}
+.section5 ul li .layer{
+    width: 258px;
+    height: 177px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.section5 ul li .layer1{
+    width: 526px;
+    height: 366px;
+}
+.section5 ul li:hover .layer{
+    background: rgba(255,255,255,.3);
+}
+
+.section5 ul li::before,.section5 ul li::after{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    content: "";
+    transition: .5s;
+    z-index: 999;
+}
+.section5 ul li::before{
+    border-top: 1px solid blueviolet;
+    border-bottom: 1px solid blueviolet;
+    transform: scale(0,1);
+}
+.section5 ul li:hover::before{
+    opacity: 1;
+    transform: scale(1);
+}
+.section5 ul li::after{
+    border-left: 1px solid blueviolet;
+    border-right: 1px solid blueviolet;
+    transform: scale(1,0);
+}
+.section5 ul li:hover::after{
+    opacity: 1;
+    transform: scale(1);
+}
+
+/*=====================section五结束======================*/
+.section6{
+    background: url("../img/index2/section6_wrap.jpg") no-repeat center;
+    height: 599px;
+}
+.section6-center{
+    position: relative;
+}
+.section6 i{
+    margin: 0 auto;
+    width: 76px;
+    height: 63px;
+}
+i.i9{
+    position: absolute;
+    top: 7px;
+    left: 0;
+    width: 66px;
+    height: 470px;
+    background-position: -66px 0;
+}
+.section6 #title{
+    position: absolute;
+    left: 120px;
+    top: 30px;
+}
+.section6 #title li{
+    padding: 0 15px;
+    display: inline-block;
+    cursor: pointer;
+    overflow: hidden;
+    width: 85px;
+    color: #d586a7;
+    font-size: 18px;
+    text-align: center;
+    line-height: 30px;
+    border-right: 1px solid #929294;
+}
+.section6 #title li.nr{
+    border: 0;
+}
+.section6 #title li>.i1{
+    background-position: -117px -536px;
+}
+.section6 #title li>.i2{
+    background-position: -193px -530px;
+}
+.section6 #title li>.i3{
+    background-position: -193px -460px;
+}
+.section6 #title li>.i4{
+    background-position: -114px -475px;
+}
+.section6 #title li>.i5{
+    background-position: -272px -525px;
+}
+.section6 #title li>.i7{
+    background-position: -276px -456px;
+}
+.section6 #title li.active{
+    color: #bc4072;
+}
+.gd{
+    width: 60px;
+    height: 24px;
+    background: #7b77c0;
+    position: absolute;
+    right: 36px;
+    top: 150px;
+    color: #fff;
+    border-radius: 24px;
+    text-align: center;
+    line-height: 24px;
+}
+.gd2{
+    top: 80px;
+    right: 185px;
+}
+.section6 .cos_wrap{
+    position: relative;
+    left: 120px;
+    top: 195px;
+}
+.section6 .cos_box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.section6 .cos_box.active{
+    display: block;
+}
+.section6 .cos_box li{
+    float: left;
+    width:  320px;
+    margin-right: 40px;
+    position: relative;
+}
+.section6 .cos_box .img{
+    width: 320px;
+    height: 220px;
+}
+.section6 .cos_box .img img{
+    width: 100%;
+}
+.section6 .cos_box .text{
+    padding: 0 10px;
+    text-align: center;
+    width: 300px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 14px;
+    color: #676767;
+    overflow: hidden;
+    white-space: nowrap;
+    border: 1px solid #dd91b0;
+    margin-top: 15px;
+    text-overflow: ellipsis;
+    cursor: pointer;
+}
+.section6 .cos_box .layer{
+    width: 320px;
+    height: 220px;
+    background: rgba(188,64,114,0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+i.i11{
+    position: absolute;
+    top: 90px;
+    left: 130px;
+    width: 54px;
+    height: 54px;
+    background-position: -348px -460px;
+}
+.section6 .cos_box li:hover .layer{
+    transition: .5s;
+    opacity: 1;
+}
+/*=====================section六结束======================*/
+.section7{
+    background: url("../img/index2/bottom_bg.jpg") no-repeat center;
+    height: 233px;
+    overflow: hidden;
+}
+.section7-center{
+    margin-top: 45px;
+}
+.section7 span{
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    border-radius: 107px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 109px;
+    font-size: 80px;
+    color: #7c85cb;
+    font-weight: 400;
+    position: relative;
+}
+.section7 span img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: none;
+}
+.section7 span:hover img{
+    display: block;
+}
+.section7 a{
+    display: block;
+    width: 120px;
+    float: left;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    line-height: 46px;
+    margin-right: 50px;
+}
+
+/*=====================section七结束======================*/
+footer{
+    width: 100%;
+    height: 183px;
+    background: #000;
+    color: #494949;
+    font-size: 12px;
+}
+.footer-inner{
+    width: 1260px;
+    margin: 0 auto;
+    padding: 20px 20px;
+}
+.foot_lefts p{
+    width: 310px;
+    height: 70px;
+    margin-top: 30px;
+    line-height: 20px;
+}
+footer li{
+    line-height: 20px;
+}
+footer li a{
+    color: #494949;
+    font-size: 12px;
+}
+footer li img{
+    vertical-align: middle;
+}

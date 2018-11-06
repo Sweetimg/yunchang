@@ -1,0 +1,227 @@
+.section1{
+    background: url("../img/index3/inner_kv_0423.jpg") no-repeat center;
+    height: 507px;
+    cursor: url("../img/index3/meat2.gif"),pointer;
+}
+.section1 .sb{
+    width: 10px;
+    height: 10px;
+    /*border-radius: 8px;*/
+    /*background-color: deeppink;*/
+    position: absolute;
+}
+#star-six {
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 10px solid deeppink;
+    position: relative;
+}
+#star-six::after {
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 10px solid deeppink;
+    position: absolute;
+    content: "";
+    top: 4px;
+    left: -8px;
+}
+.section2{
+    background: url("../img/index3/inner_bottom.jpg") no-repeat  50% bottom;
+    min-height: 945px;
+    padding-bottom: 324px;
+    /*这面的话要注意*/
+}
+.section2 .inner_content{
+    width: 1200px;
+    margin: 0 auto;
+}
+.section2 .cont{
+    width: 914px;
+    overflow: hidden;
+    float: left;
+    background: #fff;
+    /*background-color: rebeccapurple;*/
+    min-height: 945px;
+    padding-bottom: 20px;
+    margin-top: 43px;
+    position: relative;
+}
+.section2 .cont #tit{
+    position: absolute;
+    top: -28px;
+    left: 400px;
+    display: block;
+    font-size: 36px;
+    color: #707070;
+    padding: 30px 0 60px;
+    line-height: 40px;
+}
+.section2 .cont .span1{
+    display: block;
+    font-size: 9px;
+    color: #707070;
+    line-height: 12px;
+    position: absolute;
+    top: 48px;
+    left: 383px;
+}
+.section2 .cont .ul{
+    margin: -30px 151px;
+}
+.section2 .cont .ul li{
+    float: left;
+    margin-right: 35px;
+    font-size: 25px;
+    line-height: 40px;
+    color: #666;
+    border-bottom: 2px solid transparent;
+    padding: 0 12px;
+}
+.section2 .cont .ul li.active{
+    color: #bf3a7d;
+    border-bottom: 2px solid #bf3a7d;
+}
+.section2 .cont .contz{
+    width: 914px;
+    min-height: 945px;
+    position: absolute;
+    top: 160px;
+    left: 0;
+    display: none;
+}
+.section2 .cont .contz.active{
+    display: block;
+}
+.section2 .cont .contz ul.ul2{
+    margin-top: -129px;
+}
+.section2 .cont .contz ul.ul2 li{
+    border-top: 1px solid #c03a7e;
+    padding: 20px 0;
+    position: relative;
+    width: 680px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.section2 .contz .ul2 li span.span3{
+    display: inline-block;
+    width: 36px;
+    height: 50px;
+    padding: 20px 0;
+    line-height: 50px;
+    font-size: 18px;
+    color: #c03a7e;
+    border: 1px solid #c03a7e;
+    text-align: center;
+}
+.section2 .contz .ul2 li h3{
+    display: inline-block;
+    color: #333;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 60px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.section2 .contz .ul2 li em{
+    font-style: normal;
+    color: #b1b1b1;
+    font-size: 12px;
+    position: absolute;
+    top: 95px;
+    left: 45px;
+}
+.section2 .dh{
+    background: url("../img/index3/p2.png") no-repeat 0 0;
+    width: 246px;
+    height: 1190px;
+    float: right;
+    /*position: relative;*/
+    padding: 10px 20px;
+}
+b{
+    background: url("../img/index3/p2.png") no-repeat;
+    display: inline-block;
+    /*position: absolute;*/
+}
+.b1,.b2,.b3{
+    width: 243px;
+    height: 73px;
+}
+.b1{
+    background-position: -287px -757px;
+    margin-top: 60px;
+}
+.b2{
+    background-position: -287px -830px;
+}
+.b3{
+    background-position: -287px -902px;
+}
+.b4{
+    width: 243px;
+    height: 228px;
+    background-position: -287px 0;
+    position: relative;
+}
+.b5{
+    width: 244px;
+    height: 229px;
+    background-position: -286px -227px;
+    position: relative;
+}
+.b4 img,.b5 img{
+    width: 182px;
+    height: 182px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.b6,.b7,.b8{
+    width: 242px;
+    height: 100px;
+}
+.b6{
+    background-position: -287px -455px;
+}
+.b7{
+    background-position: -287px -555px;
+}
+.b8{
+    background-position: -287px -658px;
+}
+
+/*模态框*/
+.mask{
+    width: 100%;
+    height: 2000px;
+    background:rgba(0,0,0,.2);
+    position: absolute;/*相当于body定位*/
+    top: 0;
+    left: 0;
+    display: none;
+}
+.login{
+    width: 400px;
+    height: 300px;
+    background-color: #fff;
+    position: fixed;
+    top: 180px;
+    left: 485px;
+}
+.mask table{
+    margin-top: 30px;
+}
+.mask input{
+    border: 1px solid grey;
+    padding: 2px 0;
+    margin: 5px 0;
+
+}
+
